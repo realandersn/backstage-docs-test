@@ -1,8 +1,8 @@
 site_name: Backstage Docs Test
 description: Testing TechDocs
 
-nav: 
-  - Introduction: index.md
+nav:
+  - Introduction: README.md
 
 plugins:
   - techdocs-core
