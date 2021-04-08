@@ -1,5 +1,6 @@
 site_name: Backstage Docs Test
 description: Testing TechDocs
+repo_url: https://github.com/realandersn/backstage-docs-test/
 
 nav:
   - Introduction: README.md
