@@ -5,7 +5,7 @@ metadata:
   description: testing docs
   annotations:
     github.com/project-slug: realandersn/backstage-docs-test
-    backstage.io/techdocs-ref: github:https://github.com/realandersn/backstage-docs-test
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
   lifecycle: experimental

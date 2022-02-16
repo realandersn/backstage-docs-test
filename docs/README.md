@@ -8,3 +8,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+[Link to another docs page](another_page.md)
