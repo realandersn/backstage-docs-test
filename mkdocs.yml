@@ -12,5 +12,6 @@ plugins:
   - techdocs-core
 
 theme:
+  name: mkdocs-material
   features:
     - navigation.expand
