@@ -4,8 +4,9 @@ repo_url: https://github.com/realandersn/backstage-docs-test/
 
 nav:
   - Introduction: README.md
-  - Another page: another_page.md
-    - Yet another page: yet_another_page.md
+  - Sub section:
+      - Another page: another_page.md
+      - Yet another page: yet_another_page.md
 
 plugins:
   - techdocs-core
