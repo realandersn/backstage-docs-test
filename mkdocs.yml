@@ -4,7 +4,7 @@ repo_url: https://github.com/realandersn/backstage-docs-test/
 edit_uri: edit/master/docs/
 
 nav:
-  - Introduction: README.md
+  - Introduction: /
   - Sub section:
       - Another page: another_page.md
       - Yet another page: yet_another_page.md
