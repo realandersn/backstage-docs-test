@@ -1,5 +1,6 @@
 site_name: Backstage Docs Test
-description: Testing TechDocs
+description: |
+  Testing TechDocs
 repo_url: https://github.com/realandersn/backstage-docs-test/
 edit_uri: edit/master/docs/
 
