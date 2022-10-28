@@ -74,6 +74,8 @@ jobs:
     name: Publish TechDocs Site
     runs-on: ubuntu-20.04
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
       - name: Setup Node
         uses: Staffbase/backstage-techdocs-action@v0.2.0
         with:
