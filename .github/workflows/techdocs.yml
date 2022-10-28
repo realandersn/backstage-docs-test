@@ -80,7 +80,7 @@ jobs:
         uses: Staffbase/backstage-techdocs-action@v0.2.0
         with:
           entity-namespace: 'default'
-          entity-kind: 'component'
+          entity-kind: 'Component'
           entity-name: 'backstage-docs-test'
           publisher-type: 'awsS3'
           storage-name: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
