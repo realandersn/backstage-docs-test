@@ -62,31 +62,31 @@
 #       - name: Publish docs site
 #         run: techdocs-cli publish --publisher-type awsS3 --storage-name $TECHDOCS_S3_BUCKET_NAME --entity $ENTITY_NAMESPACE/$ENTITY_KIND/$ENTITY_NAME
 
-name: Publish TechDocs Site
+# name: Publish TechDocs Site
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  publish-techdocs-site:
-    name: Publish TechDocs Site
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Setup Node
-        uses: Staffbase/backstage-techdocs-action@v0.2.0
-        with:
-          entity-namespace: 'default'
-          entity-kind: 'Component'
-          entity-name: 'backstage-docs-test'
-          publisher-type: 'awsS3'
-          storage-name: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+# jobs:
+#   publish-techdocs-site:
+#     name: Publish TechDocs Site
+#     runs-on: ubuntu-20.04
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+#       - name: Setup Node
+#         uses: Staffbase/backstage-techdocs-action@v0.2.0
+#         with:
+#           entity-namespace: 'default'
+#           entity-kind: 'Component'
+#           entity-name: 'backstage-docs-test'
+#           publisher-type: 'awsS3'
+#           storage-name: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
+#           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+#           aws-region: ${{ secrets.AWS_REGION }}
 
 name: Publish TechDocs Site
 
@@ -109,9 +109,9 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: ${{ secrets.AWS_REGION }}
-      ENTITY_NAMESPACE: 'default'
-      ENTITY_KIND: 'component'
-      ENTITY_NAME: 'backstage-docs-test'
+      ENTITY_NAMESPACE: "default"
+      ENTITY_KIND: "component"
+      ENTITY_NAME: "backstage-docs-test"
       # In a Software template, Scaffolder will replace {{cookiecutter.component_id | jsonify}}
       # with the correct entity name. This is same as metadata.name in the entity's catalog-info.yaml
       # ENTITY_NAME: '{{ cookiecutter.component_id | jsonify }}'
@@ -127,8 +127,8 @@ jobs:
       - name: setup java
         uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
-          java-version: '11'
+          distribution: "zulu"
+          java-version: "11"
       - name: download, validate, install plantuml and its dependencies
         run: |
           curl -o plantuml.jar -L http://sourceforge.net/projects/plantuml/files/plantuml.1.2021.4.jar/download
