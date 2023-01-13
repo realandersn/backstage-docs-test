@@ -2,6 +2,10 @@
 
 This is another docs page.
 
+<div class="test">
+<iframe src="https://www.youtube.com/embed/LXb3EKWsInQ" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
 ## Heading 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo ex nisi, nec dictum sapien feugiat vitae. Pellentesque commodo efficitur est. Nulla id aliquam metus. Quisque nunc orci, ultricies non nisl aliquet, tristique tempor lorem. Phasellus euismod velit sit amet pulvinar ullamcorper. Duis accumsan ut dui sagittis faucibus. Suspendisse vitae sapien id urna maximus lacinia.
