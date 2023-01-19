@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-docs-test
+  annotations:
+    github.com/project-slug: realandersn/backstage-docs-test
+spec:
+  type: other
+  lifecycle: unknown
+  owner: realandersn
