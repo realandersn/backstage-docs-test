@@ -9,28 +9,28 @@ nav:
   - Sub section:
       - Another page: another_page.md
       - Yet another page: yet_another_page.md
-  - Test: test.md    
+  - Test: test.md
   - Feature test:
-      - Intro to Formatting TechDocs: techdocs/formatting/introduction.md
-      - Headings: techdocs/formatting/headings.md
-      - Linking: techdocs/formatting/linking.md
-      - Images: techdocs/formatting/images.md
-      - Code snippets: techdocs/formatting/code-snippets.md
-      - Variables: techdocs/formatting/variables.md
-      - Notes, tips, info, and warnings: techdocs/formatting/call-outs.md
-      - Dropdowns: techdocs/formatting/dropdowns.md
-      - Tables: techdocs/formatting/tables.md
-      - Tabs: techdocs/formatting/grouping.md
-      - Abbreviations: techdocs/formatting/abbreviations.md
-      - LaTeX math equations: techdocs/formatting/equations.md
-      - Graphviz: techdocs/formatting/graphviz.md
-      - PlantUML: techdocs/formatting/plantuml.md
-      - Mermaid: techdocs/formatting/mermaid.md
-      - List Formatting: techdocs/formatting/list-format.md
-      - Embedding content: techdocs/formatting/embedding-content.md
-      - Embedding code: techdocs/formatting/embedding-code.md
-      - File downloads: techdocs/formatting/file-downloads.md
-      - techdocs/formatting/footnotes.md
+      - Intro to Formatting TechDocs: features/introduction.md
+      - Headings: features/headings.md
+      - Linking: features/linking.md
+      - Images: features/images.md
+      - Code snippets: features/code-snippets.md
+      - Variables: features/variables.md
+      - Notes, tips, info, and warnings: features/call-outs.md
+      - Dropdowns: features/dropdowns.md
+      - Tables: features/tables.md
+      - Tabs: features/grouping.md
+      - Abbreviations: features/abbreviations.md
+      - LaTeX math equations: features/equations.md
+      - Graphviz: features/graphviz.md
+      - PlantUML: features/plantuml.md
+      - Mermaid: features/mermaid.md
+      - List Formatting: features/list-format.md
+      - Embedding content: features/embedding-content.md
+      - Embedding code: features/embedding-code.md
+      - File downloads: features/file-downloads.md
+      - features/footnotes.md
 
 plugins:
   - techdocs-core
