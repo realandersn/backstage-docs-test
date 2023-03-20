@@ -10,6 +10,27 @@ nav:
       - Another page: another_page.md
       - Yet another page: yet_another_page.md
   - Test: test.md    
+  - Feature test:
+      - Intro to Formatting TechDocs: techdocs/formatting/introduction.md
+      - Headings: techdocs/formatting/headings.md
+      - Linking: techdocs/formatting/linking.md
+      - Images: techdocs/formatting/images.md
+      - Code snippets: techdocs/formatting/code-snippets.md
+      - Variables: techdocs/formatting/variables.md
+      - Notes, tips, info, and warnings: techdocs/formatting/call-outs.md
+      - Dropdowns: techdocs/formatting/dropdowns.md
+      - Tables: techdocs/formatting/tables.md
+      - Tabs: techdocs/formatting/grouping.md
+      - Abbreviations: techdocs/formatting/abbreviations.md
+      - LaTeX math equations: techdocs/formatting/equations.md
+      - Graphviz: techdocs/formatting/graphviz.md
+      - PlantUML: techdocs/formatting/plantuml.md
+      - Mermaid: techdocs/formatting/mermaid.md
+      - List Formatting: techdocs/formatting/list-format.md
+      - Embedding content: techdocs/formatting/embedding-content.md
+      - Embedding code: techdocs/formatting/embedding-code.md
+      - File downloads: techdocs/formatting/file-downloads.md
+      - techdocs/formatting/footnotes.md
 
 plugins:
   - techdocs-core
