@@ -4,9 +4,9 @@ metadata:
   name: backstage-docs-test
   description: testing docs
   annotations:
-    github.com/project-slug: realandersn/backstage-docs-test
+    github.com/project-slug: agentbellnorm/backstage-docs-test
     backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
   lifecycle: experimental
-  owner: realandersn
+  owner: agentbellnorm
